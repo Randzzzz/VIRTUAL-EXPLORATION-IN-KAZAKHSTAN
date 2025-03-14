@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: #F0F4EF;
+}
+/* navbar section */
+
+.navbar{
+  background-color: #344966;
+  color: #F0F4EF;
+  font-family: Poppins, sans-serif;
+}
+.navbar .left img{
+  height: 32px;
+  width: 32px;
+}
+.navbar .middle .menubar{
+  list-style: none;
+}
+.navbar .button{
+  color: #F0F4EF;
+  background-color: transparent;
+  border: 2px solid #b4cded;
+  transition: background-color 0.5s;
+}
+.navbar .button:hover{
+  color: #F0F4EF;
+  background-color: #b4cded;
+  border: 2px solid transparent;
+}
+
+/* home section */
+.home{
+  background-image: url(https://cdn.britannica.com/65/89765-050-50F5F6C0/Nursultan-Kazakhstan.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.home {
+  color: #e6e7e5;
+}
+.home .container{
+  font-family: Poppins, sans-serif;
+}
+.home .quote-container{
+  font-family: Roboto, sans-serif;
+}
+.home .button{
+  font-family: Poppins, sans-serif;
+  color: #F0F4EF;
+  background-color: transparent;
+  border: 3px solid #b4cded;
+  transition: background-color 0.5s;
+}
+.home .button:hover{
+  color: #F0F4EF;
+  background-color: #b4cded;
+  border: 3px solid transparent;
+}
+/* get started section */
+.start{
+  background-color: #344966;
+}
+.start .title{
+  font-family: Poppins, sans-serif;
+  color: #F0F4EF;
+}
+.start .text{
+  color: #F0F4EF;
+  font-family: Roboto, sans-serif;
+}
+.start .button{
+  font-family: Poppins, sans-serif;
+  color: #0D1821;
+  background-color: #F0F4EF;
+  transition: background-color 0.5s;
+}
+.start .button:hover{
+  background-color: #cacaca;
+}
+/* geography section  */
+.geography{
+  color: #0D1821;
+}
+.geography .title{
+  font-family: Poppins, sans-serif;
+}
+.geography .text-container{
+  font-family: Roboto, sans-serif;
+}
+.geography .text-container, .geography .text{
+  font-family: Roboto, sans-serif;
+}
+.geography .surface-container .surface{
+  color: #F0F4EF;
+  font-family: Poppins, sans-serif;
+}
+.geography .surface-container{
+  border: 6px solid #344966;
+  border-radius: 20px;
+}
+
+.geography .desert, .geography .semi-desert, .geography .forest, .geography .steppe {
+  background-color: #344966;
+  border: 3px solid #344966;
+  width: 600px;
+  transition: width 0.5s ease-in-out, background-color 0.3s ease;
+}
+.geography .bar-container:hover .desert {
+  width: 240px;
+  background-color: #2a3b54;
+}
+.geography .bar-container:hover .semi-desert {
+  width: 360px;
+  background-color: #2a3b54;
+}
+.geography .bar-container:hover .forest {
+  width: 120px;
+  background-color: #2a3b54;
+}
+.geography .bar-container:hover .steppe {
+  width: 200px;
+  background-color: #2a3b54;
+}
+.geography .language .image-container{
+  border: 1px solid #2a3b54;
+}
+
+/* places section */
+.places{
+  color: #F0F4EF;
+  background-color: rgba(0, 0, 0, 0.2);
+
+}
+.places .first-title{
+  color: #F0F4EF;
+  background-color: #2a3b54;
+}
+.places .text-content{
+  background-color: #2a3b54;
+}
+.places .text-content .title{
+  font-family: Poppins, sans-serif;
+}
+.places .text-content .info-text{
+  font-family: Roboto, sans-serif;
+  color: #dddddd;
+}
+/* contact section */
+.contact .title-container{
+  background-color: #2a3b54;
+  color: #F0F4EF;
+}
+.contact button{
+  font-family: Poppins, sans-serif;
+  color: #344966;
+  background-color: transparent;
+  border: 3px solid #2a3b54;
+  transition: background-color 0.5s;
+}
+.contact button:hover{
+  color: #F0F4EF;
+  background-color: #2a3b54;
+  border: 3px solid transparent;
+}
+.contact form{
+  background-color: #F0F4EF;
+}
+/* footer section */
+.footer{
+  background-color: #2a3b54;
+  color: #F0F4EF;
+  font-family: Poppins, sans-serif;
+}
+
+/* culture section */
+.culture{
+  color: #F0F4EF;
+}
+.culture .first-title{
+  color: #0D1821;
+}
+.culture .text-content{
+  background-color: #2a3b54;
+}
+.culture .text-content .title{
+  font-family: Poppins, sans-serif;
+}
+.culture .text-content .info-text{
+  font-family: Roboto, sans-serif;
+  color: #dddddd;
+}
+/* activities section */
+.activities{
+  color: #F0F4EF;
+}
+.activities .first-title{
+  color: #F0F4EF;
+  background-color: #2a3b54;
+}
+.activities .text-content{
+  background-color: #2a3b54;
+}
+.activities .text-content .title{
+  font-family: Poppins, sans-serif;
+}
+.activities .text-content .info-text{
+  font-family: Roboto, sans-serif;
+  color: #dddddd;
+}
+/* delicacies section */
+.delicacies{
+  color: #F0F4EF;
+}
+.delicacies .first-title{
+  color: #F0F4EF;
+  background-color: #2a3b54;
+}
+.delicacies .text-content{
+  background-color: #2a3b54;
+}
+.delicacies .text-content .title{
+  font-family: Poppins, sans-serif;
+}
+.delicacies .text-content .info-text{
+  font-family: Roboto, sans-serif;
+  color: #dddddd;
+}
+
